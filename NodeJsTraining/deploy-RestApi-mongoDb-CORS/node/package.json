@@ -1,0 +1,11 @@
+ {
+    "name":"mongoTeaswithNodejs",
+    "version":"0.0.0",
+    "description":"description",
+    "main":"name2sd3234",
+    "dependencies": {
+        "mongoose":"4.10.8",
+      //  "mongodb": "^3.1.8"
+        
+    }
+}

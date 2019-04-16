@@ -1,0 +1,11 @@
+extend layout
+
+block content
+	div(class='topnav')
+		a(class="active" href="/") Home
+		
+		a(href="./logout") Logout
+
+	form(action="/post" method="POST")
+		textarea(name="post" placeholder="Post Something!")
+		input(type="submit")

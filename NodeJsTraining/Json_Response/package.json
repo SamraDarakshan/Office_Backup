@@ -1,0 +1,11 @@
+{
+  "name": "json_response",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JsonStringify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samra",
+  "license": "MIT"
+}

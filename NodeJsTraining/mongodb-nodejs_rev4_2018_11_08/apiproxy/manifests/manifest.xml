@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="add-cors" version="SHA-512:7bfb38888e6437df9af238fd3661176b207b788da0a97b897e9befd4b7d612b51ae3a7b27448f75920e9aed7eb98fd613eb4cb1502ba77b46d7bb350c5d3a851"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:3cf9164221ce0e08b72e226b59e139fd4af6fbd579dd99304f6c2a76a4031b7161bbe228b361abb6064cdab556f775442759f6ef3578d04dd09493079f8883ab"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="node://mongo.js" version="SHA-512:8cd1fcbecc4bc207796b74e6850f24d6545b77f1e6aac56ab58b43548e5f9ec761563675d09b9f4113be7546576c2f3d6374e67fdcd4756e4111bf6d0f52c7e3"/>
+        <VersionInfo resourceName="node://node_modules_mongoose.zip" version="SHA-512:3375816a6687f7a09c87a7ff1adc26e919826311f79dfd3bfcf9858f912f210735d1cd1eea4e7e41174c095920328894b323d9a8f29edf23227362a9ada7b9c3"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:de33c56660a05ddde3f5454d95692a897ee69a86a2dcf87bc59d9f588cc8ed9b7b65ef5a0dd0e400527c7361124729794a66a7b9a88ebcc503a5ba2669725dcb"/>
+        <VersionInfo resourceName="node://try.js" version="SHA-512:a6974d26f8b1dbb4ae8de0b4f667e8b42e755f5dda13bad6043d3da7f046ec93781ad4e9ceafb80fb1812b71e0d68fc8b40206fc24a8b218988e09f5d55cf55f"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:52db2cf490cdee5b639f03137686fb98dfd1722e35b3122de4dd1bf25de6d3604b20558ae80e594f396a0de5d6aeae534ef53636d25ce5eb2ea2cf1efe4a2f0f"/>
+    </TargetEndpoints>
+</Manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="add-cors" version="SHA-512:08cc2ef69b08ee73467f7be74960047faa490fcc61ebba744cc1436358ed8068b052ee8c6e101ad00a5d54633c92d8195f7ed624372a59614265f0e515a1b5a1"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9a9b4124aac2ab08e3deb74cba29fa7665599e9d3a887f06895a22da491937e4f9dbeb051eb0800400628ddce29f236a073e0a6ea8a4bf8efeee094f5878dbab"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="node://hello-world.js" version="SHA-512:af2aed96a9a04d520882852dea526071bcd53fc98d49138dd27861df33be13d4930d62dd7e0217eb75c6e39b05810fffe09132429061566a3b5b2dcfcf087172"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:8d744bceb68483262b7396df650ed554bc20d326537ca060e3eec7872f677b7a8a0381e4c6ca44e74c3137d9002132b0871076f90708338d00d625cdd2171e2a"/>
+        <VersionInfo resourceName="node://server-usergrid.js" version="SHA-512:494a2286f25a94884ba9d62a17b691fa27070dbb07c73d2c1b303b473930d6fe7132636c0c1de91c27e7b9a4476d8446b628c05882dd6ef19d79aed8f9febaa1"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:ca89351626ff27ede7af9119d3b16af74cb8b27c393650f9401fa7f8d470cdcfd00cb178e2a39ec4457e1a4f5e8e9c8d455919c16cb5df93275e50d600fc9f68"/>
+    </TargetEndpoints>
+</Manifest>

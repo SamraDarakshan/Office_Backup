@@ -1,0 +1,14 @@
+{
+   "name": "usergrid-node",
+   "version": "0.0.0",
+   "description": "Usergrid Proxy",
+   "main": "hello-world.js",
+   "dependencies": {
+      "argo": "x.x.x",
+      "express": "3.x.x",
+      "fs": "0.0.1-security",
+      "http": "0.0.0",
+      "test": "file:./test.js",
+      "usergrid": "x.x.x"
+   }
+}

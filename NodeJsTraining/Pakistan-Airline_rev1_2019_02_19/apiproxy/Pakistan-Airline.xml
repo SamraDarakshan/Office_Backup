@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Pakistan-Airline">
+    <Basepaths>/pakistan-airline</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1550575643711</CreatedAt>
+    <CreatedBy>samra.darakshan@royalcyber.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Pakistan-Airline</DisplayName>
+    <LastModifiedAt>1550576528920</LastModifiedAt>
+    <LastModifiedBy>samra.darakshan@royalcyber.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:5e3b36cce46796791df6dd3f610f2c6d0992a80ff2269ba37364f85cf611752c73ab8d516139fd511faeb594872fa87bd4d9ec575451e7f60e5aaf163fad43b8:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://hello-world.js</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server-usergrid.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,22 @@
+package impCode;
+import java.util.Scanner;
+
+public class multiplytwonumberswithoutoperator {
+
+    public static void main(String[]args)
+    {
+        Scanner in = new Scanner(System.in);
+        int result=0;
+        int x=0;        
+        System.out.print("Enter Num1 :");
+        int num1 = in.nextInt();
+        System.out.print("Enter Numb2 :");
+        int num2 = in.nextInt();
+        while(x<2)
+        {
+            result=result+num1;
+            x++;
+        }
+        System.out.print(result);
+    }
+}

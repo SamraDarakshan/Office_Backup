@@ -1,0 +1,19 @@
+{
+  "name": "deploy_newairline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "date-and-time": "^0.6.3",
+    "dateformat": "^3.0.3",
+    "express": "^3.21.2",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.16"
+  }
+}

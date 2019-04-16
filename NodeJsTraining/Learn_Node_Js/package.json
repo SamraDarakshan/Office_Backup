@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.3.2",
+    "watchify": "^3.11.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.6.8"
+  },
+  "description": ""
+}

@@ -1,0 +1,13 @@
+{
+    "name": "airline",
+    "version": "0.0.0",
+    "description": "airline Proxy",
+    "main": "pakistan.js",
+    "dependencies": {
+        //"argo": "x.x.x",
+        "express": "3.x.x",
+        "mongodb": "^3.1.8",
+        "mongoose": "^4.10.8",
+        //"usergrid": "x.x.x"
+    }
+}

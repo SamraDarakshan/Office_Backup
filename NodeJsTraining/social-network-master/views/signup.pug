@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	div(class='topnav')
+		a(href="/signup") Signup
+		a(href="/login") Login
+
+	h2 Join the Community
+
+	form(action="/signup" method="POST")
+		input(type="Text" placeholder="username" name="username")
+		input(type="Text" placeholder="****" name="password")
+		|
+		input(type="submit")
+	h2=message

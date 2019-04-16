@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="mongodb-nodejs">
+    <Basepaths>/mongodb</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1540991458719</CreatedAt>
+    <CreatedBy>samra.darakshan@royalcyber.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>MongoDB___Nodejs</DisplayName>
+    <LastModifiedAt>1541593573139</LastModifiedAt>
+    <LastModifiedBy>samra.darakshan@royalcyber.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:592fe43e0d5170af0e0a5efb5a12d5cd6a9ade3f34f6892abca9a90c0b2d0ec110bb8f9fbdcf1893e6f7fa0ee98c7d7bda9d851acf57885db43e08ffccd6bc90:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>add-cors</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://mongo.js</Resource>
+        <Resource>node://node_modules_mongoose.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>node://try.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

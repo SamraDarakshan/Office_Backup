@@ -1,0 +1,16 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "templateEngine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samra",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "mongodb": "^3.1.6",
+    "mysql.js": "^1.0.2"
+  }
+}

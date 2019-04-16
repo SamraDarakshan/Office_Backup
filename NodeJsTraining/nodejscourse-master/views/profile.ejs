@@ -1,0 +1,65 @@
+<% layout('layout') -%>
+<% block('topbar', 
+	'<div id="rightside">\
+		<a id="user" href="/users/'+currentUser.username+'">\
+			<img id="userpic" src="'+currentUser.image+'"/>\
+			<span id="username">'+currentUser.username+'</span>\
+		</a>\
+		<a href="/logout" id="logout">Logout</a>\
+	</div>'
+) -%>
+<script>
+var myname = "<%= currentUser.username %>";
+</script>
+<%
+if (user.username == currentUser.username) { 
+	var isMe = true;
+} else {
+	var isMe = false;
+}
+%>
+
+<aside class="centerme">
+	<h1 id="theusername"><%= user.username %></h1>
+	<img id="profPic" src="<%= user.image %>"><br>
+	<% if (isMe) { %> 
+    <form method="POST" action="/profile">
+    	Image<br>
+		<input name="image" type="text" id="image" value="<%= user.image %>"/><br>
+		Bio<br>
+		<textarea id="bio" name="bio"><%= user.bio %></textarea><br><br>
+		<input class="sub" type="submit" value="Update">
+	</form>
+	<% } else { %>
+		<%= user.bio %>
+	<% } %>
+</aside>
+
+<article class="centerme">
+	<div id="postsOuter">
+	<% 
+	if (isMe) { %>
+		<form action="/statuses"  id="postNewStatus" method="POST">
+			<textarea id="newstatus" name="status" placeholder="What's your status?"></textarea>
+			<input class="sub" type="submit" value="Post"/>
+		</form>
+	<% 
+	}
+
+	for (var i=0;i<statuses.length;i++) { %>
+		<div class="post">
+			<div class="timestamp"><abbr class="timeago" title="<%= new Date(statuses[i].time).toISOString() %>"></abbr></div>
+			<a class="colorize" href="/users/<%= user.username %>">
+				<div class="smallpic">
+					<img class="smallpic_img" src="<%= user.image %>">
+				</div>	
+				<div class="smallname"><%= user.username %></div>
+			</a>
+			<br>
+			<div class="statusbody"><%= statuses[i].body %></div>
+		</div>
+	<% } %>
+
+	</div>
+
+</article>

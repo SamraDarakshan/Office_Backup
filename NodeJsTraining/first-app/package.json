@@ -1,0 +1,16 @@
+{
+  "name": "packkage.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samra",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.8",
+    "mysql": "^2.16.0"
+  }
+}
